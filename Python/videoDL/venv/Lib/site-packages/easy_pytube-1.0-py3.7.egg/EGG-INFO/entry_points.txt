@@ -1,0 +1,3 @@
+[console_scripts]
+getvideo = easy_pytube.scripts.runner:run
+

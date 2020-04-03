@@ -1,0 +1,140 @@
+collab confiance, transparence et communication
+cedric.allemagne@viseo.com
+
+points à retenir : 
+
+PO
+Scrum Master
+Equipe
+        resp quali & établit sa propre archi
+
+Backlog de proj
+Backlog de sprint
+Incrément de produit
+
+plannification
+démo
+retro
+
+
+
+Cours 11/09
+        
+    La Problématique :
+
+        Décrire le besoin client
+            Ne pas perdre les obj de vue
+        
+        Décrire la solution
+            Echanger pour définir la bonne solution
+        
+        Estimer
+            Evaluer le coût et les retours sur investissement
+        
+        Prioriser & planifier
+            Commencer par les points à forte valeur ajoutée
+
+
+    Comment faire ça ? 
+        
+        il faut fournir de la valeur à l'utilisateur dès le départ
+        
+        la solution doit répondre au besoin mais également aux exigences budgets & délais
+        
+        Décrire les étapes utilisateurs en les regroupant par activité :
+            A partir d'un processus métier ou en fonction des utilisateurs cible
+            il peut y avoir plusieurs niveaux de tâches utilisateurs
+
+
+    On obtient donc une organisation basée sur l'expérience utilisateur
+
+
+            Act1                Act2                Act3                Act4                Act5
+        --------------------------------------------------------------------------------------------------> Tps
+    V1      etapes...           etapes...           etapes...           etapes...           etapes...
+    V2      etapes...                               etapes...                               etapes...
+    V3      etapes...           etapes...           etapes...           etapes...
+            etapes...           etapes...           etapes...           etapes...           
+
+    Les "V" permettent de répartir les priorités des différentes tâches, la V1 étant le minimum syndical pour le client
+
+
+    Les bénéfices de la Story Map
+
+        On voit vite les fonctionnalités clés
+        On peut visualiser la complétude du périmètre de l'appli
+        c'est entièrement fonctionnel, il n'y a que le côté métier (sans technique, IHM...)
+
+
+    Les stories & le blacklog
+
+        Chacun des besoins est appelé "User story" en Scrum
+            le PO les définit
+        ces US sont des fragments de l'application : ex : 
+            En tant que ...
+            Je veux ...
+            Afin de ...
+            Decription : ...
+            Priorité : ...
+            Estimation Tps : ...
+            Critères d'acceptance : - ...
+                                    - ...
+                                    - ...
+
+        La Granularité : 
+            Le découpage du projet en User Stories se fait en désagrégeant petit à petit les besoins trop gros :
+                Pour Noter la maturité d'un besoin on utilise INVEST
+                    Indépendant
+                    Négociable
+                    Valirisant
+                    Estimable
+                    Suffisament petit (pour un sprint)
+                    Testable
+                Les stories non INVEST sont des EPIC, elles doivent être retravaillées
+
+
+        Les users stories sont des éléments focntionnels, mais tout n'est pas fonctionnel :
+            
+            Non fonctionnel :
+                La sécurité
+                La performance
+                La tenue en charge
+            
+            Besoins de dev :
+                Mise en place d'une plateforme d'intégration continue
+                Tâche de refactoring
+
+            Il faut donc compléter le backlog avec des technical stories et des spikes
+                
+                Techical Story :
+                    représente une tâche technique nécessaire au projet, mais non fonctoionnelle (estimé en heures) ex : mise en place de BDD
+                
+                Spike : 
+                    élément technique sans solution actuellement (=/= Proof Of Concept)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yahoo TP Story Board !!! (alede)

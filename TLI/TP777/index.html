@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="fr">
+    <title>Jeu</title>
+  </head>
+  <body>
+    <div id="sidebar">   
+      <div class="content">
+       <canvas id="myCanvas" width="500" height="600" style="border: 1px solid black;">
+       </canvas>
+     </div>
+     <button id="graphMode"> Switch graph mode </button>
+     <button id="graphReinit"> Reinitialisation graph </button>
+     <button id="graphExport"> Export graph </button>
+     <input type='file' accept='.json' onchange='openFile(event)'>
+
+     <div>
+      <label for="algoSelect">Choose an algorithm:</label>
+      <select id="algoSelect"></select>
+      <button id="algoExecute"> Execute </button>
+      <a id="resultAlgo"> </a>
+     </div>
+     <div>
+     </div>
+   </div>
+   
+   <script src="./js/FileSaver.js"></script>
+   <script src="./js/graph.js"></script>
+   <script src="./js/graphLib.js"></script>
+   <script src="./js/script.js"></script>
+   <script src="./js/fileJSON.js"></script>
+   <script src="./js/event.js"></script>
+   <script src="./js/pageRank.js"></script>
+   <script src="./js/bipartition.js"></script>
+   <script src="./js/dijkstra.js"></script>
+   
+</body></html>

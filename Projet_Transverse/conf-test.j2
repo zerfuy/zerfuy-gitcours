@@ -1,0 +1,176 @@
+router bgp {{local_asn}}
+	neighbor {{bgp_neighbor}} remote-as {{remote_asn}}
+!
+
+*********************************************************
+
+Building configuration...
+
+Current configuration : 2093 bytes
+!
+upgrade fpd auto
+version 15.1
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname {{hostname_router}}
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+ip source-route
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+!
+!         
+!
+no ip domain lookup
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+crypto pki token default removal timeout 0
+!
+!
+!
+redundancy
+!
+!
+ip tcp synwait-time 5
+! 
+!
+!
+!         
+!
+!
+interface Loopback0
+ {{int_lo_0_IP_ji2}}
+ {{int_lo_0_shut_state_j2}}
+!
+interface FastEthernet0/0
+ {{int_f0_0_IP_j2}}
+ {{int_f0_0_shut_state_j2}}
+ duplex full
+ speed auto	
+!
+interface FastEthernet1/0
+ {{int_f1_0_IP_j2}}
+ {{int_f1_0_shut_state_j2}}
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/1
+ {{int_f1_1_IP_j2}}
+ {{int_f1_1_shut_state_j2}}
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0
+ {{int_f2_0_IP_j2}}
+ {{int_f2_0_shut_state_j2}}
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/1
+ {{int_f2_0_IP_j2}}
+ {{int_f2_0_shut_state_j2}}
+ duplex auto
+ speed auto
+!
+interface Serial3/0
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial3/1
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial3/2
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial3/3
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial4/0
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial4/1
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial4/2
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial4/3
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+logging esm config
+no cdp log mismatch duplex
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!         
+!
+mgcp profile default
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ login
+ transport input all
+!
+end 
+
+
+

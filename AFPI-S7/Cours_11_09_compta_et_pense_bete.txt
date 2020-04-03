@@ -1,0 +1,6 @@
+quand on achete, bete et méchant, on fait la dette ds bilan et on note la val dans cpt
+quand on rembourse, on réduit la dette et on déduit des dispos
+same pour ventes
+
+
+

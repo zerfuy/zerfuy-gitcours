@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<title> Gab & Thom - Voyages </title>
+</head>
+
+<body>
+	<div id="Sidenav1" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="./index.html">Accueil</a>
+    <a href="./apropos.html">A propos & contact</a>
+    <a href="./login.html" id="linkLOGIN">Log In</a>
+    <a href="./panier.html" id="linkPanier">Panier</a> 
+	</div>
+
+	<main id="main">
+	<div id="menubar">
+    <span  id="openMenuBtn" onclick="openNav()">&#9776; Menu</span>    
+  </div>
+  <h2>Réservation</h2>
+  <div>
+    <form id="formReservation" action="./summary.html" method="get">
+      <fieldset>
+        <legend>Identité</legend>
+        <p>Nom*:</p>
+        <input name="lastname" type="text" id="lastname"><br>
+        <p>Prénom*:</p>
+        <input name="firstname" type="text" id="firstname"><br>
+        <p>Adresse Mail*:</p>
+        <input name="emailadress" type="email" id="emailadress"><br>
+        <p>Numéro de Téléphone:</p>
+        <input name="telephonenumber" type="tel" id="telephonenumber" placeholder="0601234567">
+      </fieldset><br>
+      <fieldset>
+        <legend>Voyage</legend>
+        <p>Destination:</p>
+        <input type="text" name="destination" id="destination"><br>
+        <p>Price:</p>
+        <a name="price" id="price"></a><br>
+        <p>Date de Départ*:</p>
+        <input name="startdate" type="date" id="startdate"><br>
+        <p>Date de Retour*:</p>
+        <input name="returndate" type="date" id="returndate"><br>
+        <p>Nombre d'adultes*:</p>
+        <input name="numberadult" type="number" id="numberadult" min="1" max="99"><br>
+        <p>Nombre d'enfants (-12 ans)*:</p>
+        <input name="numberkids" type="number" id="numberkids" min="0" max="99"><br>
+        <p>Petit-déjeuner ? <input name="breakfast" type="checkbox" id="breakfast"></p>
+        <p>Demande de renseignement:</p>
+        <textarea name="infos" id="infos"></textarea><br>
+      </fieldset><br>
+      <fieldset>
+        <legend>Prix Total</legend>
+        <input name="totalprice" type="number" id="totalprice" min="0" readonly><br>
+        <input type="hidden" id="img" name="img">
+        <input type="submit" id="submitbtn" value="Valider" onclick="submitForm();">
+        <input type="button" id="restebtn" value="Reset" onclick="resetForm();">
+      </fieldset><br>
+    </form>
+  </div>
+</main>
+<footer>
+  <div class="row">
+    <div class="column">GIBAND</div>
+    <div class="column">Developpeur</div>
+    <div class="column">20 ans</div>
+  </div>
+  <div class="row">
+    <div class="column">BAILLY</div>
+    <div class="column">Developpeur</div>
+    <div class="column">20 ans</div>
+  </div>
+</footer>
+
+<script src="js/reservation.js"></script>
+<script src="js/navMenu.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,16 @@
+ted talk : 
+
+
+Today i watched : "3 ways to make better decisions by thinking like a computer"
+
+During this ted talk, the presenter walks the audience through 3 "typical life problems" and their algorithmic solutions.
+before starting, he talks briefly about his personal background, and explains that as a kid he always used to try and think in the most logical way possible. He also says that, even if it isn't done consciously everybody also acts that way - to some degree.
+
+Now, about his three axamples :
+First, finding a home in Sydney. The issue is that every time you choose to disregard a house by not buying it, then you are taking a risk and potentially losing the best option... Well, mathematically this is a know problem (optimal stopping problem) and the answer is simple : 37%. The probabilities say that you should stop looking and make an offer on the next best thing after you've seen 37% of the market. 
+Secondly, what restaurant should you choose tonight ? Try something new or pick something safe ? this problem also applies to large scale marketing, for example and is really always a dilemma. Well, the first question a computer would try to answer in this situation is "am i going to stay long enough in this city to benefit from taking a risk ?" This is indeed a really important interrogation people often forget to stress, even if as a human example of application, babies always explore since they don't know what could taste good - while an old man will always go to THE restaurant he likes.
+Finally, if you have to choose what to keep (for example, when it comes to clothes), you could just apply the method scientists use to handle RAM and hard drive memory ; just get rid of the last less used... as you do with a simple pile of papers !
+
+he concludes by explaining that it simply is not possible to always be 100% sure, and that most of the time you simply can't get the best possible outcome. The best option sometimes is to simply settle for a good solution, or take a chance...
+
+On a personal note, I quite liked this ted talk, especially the link between science and everyday life the speaker makes. Really makes you wonder, how would you fare in life if you always thought like a computer ? 

@@ -1,0 +1,38 @@
+Politique économique conjoncturelle
+
+La politique économique conjoncturelle vise à réguler l'activité à court terme pour garantir une croissance forte sans déséquilibres (chômage, inflation, déficit budgétaire).
+
+La politique conjoncturelle est procyclique lorsque l'État agit dans le sens de la conjoncture pour l'amplifier. Par exemple, prendre des mesures de relance pour stimuler la demande et la croissance économique en période de récession est une action conjoncturelle procyclique.
+
+La politique conjoncturelle est contracyclique lorsque l'État intervient pour contrer une évolution conjoncturelle indésirable. Par exemple, prendre des mesures d'augmentation des taux d'intérêt pour diminuer les tensions inflationnistes est une action conjoncturelle contracyclique.
+
+La mise en œuvre de la politique économique conjoncturelle nécessite des politiques complémentaires : politique des revenus, politique fiscale, politique de l'emploi.
+
+Les objectifs de la politique économique conjoncturelle divers mes specs par les quatre indicateurs du "carré magique" de Nicholas Kaldor (1971) : le taux de croissance, le taux de chômage, le taux d'inflation et le solde de la balance commerciale. Ce carré est réputé magique car l'expérience prouve qu'il est difficile, voire impossible, d'atteindre simultanément les quatre objectifs. 
+
+La croissance s'obtient parfois au détriment de l'équilibre extérieur, le plein emploi aux dépens de la stabilité des prix. C'est la raison pour laquelle certains objectifs sont privilégiés au détriment d'autres. Une hiérarchie de ces objectifs est fréquemment établie en fonction des contraintes de l'environnement économique et des conceptions politiques des dirigeants.
+Le carré magique permet de comparer les économies entre elles ou de situer une économie à différentes périodes. Plus la surface du quadrilatère correspondant aux statistiques d'un pays à une période donnée s'éloigne de la surface théorique du carré magique, plus la situation économique se détériore.
+
+La régulation conjoncturelle de l'activité s'effectue au moyen de deux instruments principaux : le budget de l'État et le taux d'intérêt. La politique budgétaire et la politique monétaire peuvent être combinées pour maintenir un taux de croissance économique soutenu et un faible taux d'inflation.
+
+Qu'est-ce qu'une politique conjoncturelle dite de relance ?
+
+D’inspiration keynésienne, la politique économique conjoncturelle dite de relance privilégie les objectifs de stimulation de la croissance économique et de lutte contre le chômage. En cas de croissance faible et de chômage élevé, l'État peut mettre en œuvre une politique conjoncturelle qui vise à accroître la demande globale (consommation  et investissement) pour stimuler l'activité économique. Cette politique est mise en œuvre à l'aide d'une politique budgétaire et monétaire expansionnistes.
+
+Une politique budgétaire expansionniste se traduit par une hausse des dépenses publiques, une baisse des impôts et un creusement du déficit budgétaire. Celui-ci est considéré comme favorable parce qu’il stimule la demande globale. Le mécanisme économique qui justifie cette politique est le suivant : l'augmentation des dépenses publiques et la diminution des impôts déclenchent une hausse du revenu disponible des ménages et une hausse de la consommation, ce qui engendre une hausse de la production des entreprises et donc une hausse de l'emploi.
+ 
+Une politique monétaire expansionniste se traduit par une baisse des taux d'intérêt, une progression des crédits et de la masse monétaire. Le mécanisme économique qui justifie cette politique est le suivant : une baisse des taux d'intérêt génère des sources de financement moins coûteuses pour les agents économiques. Ménages et entreprises vont donc recourir à plus de crédits et vont effectuer plus d'échanges donc plus d'activité économique et plus d’emploi.
+Les politiques de relance ont des effets positifs sur l’activité économique, sur le revenu des ménages et sur l’emploi. Cependant ces politiques peuvent favoriser l’inflation des prix et dégrader l’équilibre extérieur en raison de l’augmentation des importations.
+
+Qu'est-ce qu'une politique conjoncturelle dite de rigueur ?
+
+D'inspiration libérale, la politique économique conjoncturelle dite de rigueur (stabilisation) privilégie la lutte contre l’inflation et la réduction des déficits. Elle implique le plus souvent le freinage de la croissance économique.
+
+Elle est mise en œuvre à l'aide de politiques monétaire et/ ou budgétaire restrictives.
+
+Une politique budgétaire restrictive recherche l’équilibre ou l’excédent du budget afin de limiter le poids de la dette publique.
+
+Une politique monétaire restrictive se traduit par une limitation du crédit et une hausse des taux d’intérêt.
+Les politiques de rigueur ont, en principe, des effets bénéfiques sur les prix, sur les équilibres extérieurs et sur les résultats des entreprises. Cependant, elles peuvent avoir des effets dépressifs sur l’emploi, sur le pouvoir d’achat des ménages et sur la production.
+
+Le soutien conjoncturel vient également des banques centrales. Les États ont confié à ces banques le soin d’établir la politique monétaire qui consiste essentiellement à déterminer le niveau des taux d’intérêt et la quantité de monnaie en circulation dans une économie. En réduisant le coût des emprunts et la valeur de la monnaie nationale, ces mesures ont des répercussions sur le niveau d’investissements des entreprises et des individus, ainsi que sur les exportations.

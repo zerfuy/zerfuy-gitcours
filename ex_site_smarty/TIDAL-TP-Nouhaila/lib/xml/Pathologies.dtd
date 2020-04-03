@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE patho [
+<!ELEMENT patho (idP,mer,type,desc)>
+<!ELEMENT idP (#PCDATA)>
+<!ELEMENT mer (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+]>

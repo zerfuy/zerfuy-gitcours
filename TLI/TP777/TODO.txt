@@ -1,0 +1,40 @@
+function distancePos(pos1, pos2){
+  return Math.sqrt((pos1.x * pos2.x) + (pos1.y * pos2.y));
+}
+
+function updateEdgesArrowed(){
+
+  for(var i = 0; i < edges.length; i++){
+    var sommet1 = getVerticeById(edges[i].id1, vertices);
+    var sommet2 = getVerticeById(edges[i].id2, vertices);
+
+    var d = distancePos(sommet1.pos, sommet2.pos);
+    var x = sommet2.pos.x;
+    var y = sommet2.pos.y;
+    var theta = Math.atan2((sommet1.pos.y - sommet2.pos.y),(sommet1.pos.x - sommet2.pos.x)) - .5*Math.PI; //Angle du segment par rapport à l'axe Y
+    var offset = rayon; // Offset pour que la pointe de la flèche se trouve sur le rayon du sommet
+
+    //Si le trait est courbé on rajoute un peu d'angle à la flèche;
+    if(curved){
+        theta+=rayon*.01*Math.PI;
+    }
+
+    //Sauvegarde le contexte pour le remettre comme il faut après les modifications
+    context.save();
+
+    // Centre le contexte au centre du sommet destination
+    context.translate(x,y);
+    // Oriente le contexte en fonction de l'angle du segment par rapport à l'axe Y
+    context.rotate(theta);
+
+    // Dessine la fleche (Sans l'angle : comme si elle pointait vers le haut)
+    context.beginPath();
+    context.moveTo(0,offset);
+    context.lineTo(rayon/2,rayon+offset);
+    context.lineTo(-rayon/2,rayon+offset);
+    context.lineTo(0,offset);
+    context.fill();
+    context.stroke();
+    context.restore();
+  }
+}

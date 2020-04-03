@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="patho">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="idP" type="xs:decimal"/>
+      <xs:element name="mer" ="xs:string"/>
+      <xs:element name="type" type="xs:string"/>
+      <xs:element name="desc" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

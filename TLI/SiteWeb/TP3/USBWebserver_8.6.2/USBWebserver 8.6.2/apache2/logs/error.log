@@ -1,0 +1,7 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/gabba/OneDrive/Documents/cours/SiteWeb/TP3/USBWebserver_8.6.2/USBWebserver 8.6.2\\php\\ext\\php_curl.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Mon Mar 04 15:00:27.407867 2019] [mpm_winnt:notice] [pid 10648:tid 792] AH00455: Apache/2.4.29 (Win32) PHP/7.1.11 configured -- resuming normal operations
+[Mon Mar 04 15:00:27.408864 2019] [mpm_winnt:notice] [pid 10648:tid 792] AH00456: Server built: Nov  3 2017 01:01:54
+[Mon Mar 04 15:00:27.408864 2019] [core:notice] [pid 10648:tid 792] AH00094: Command line: 'C:\\Users\\gabba\\OneDrive\\Documents\\cours\\SiteWeb\\TP3\\USBWebserver_8.6.2\\USBWebserver 8.6.2/apache2/bin/httpd_usbwv8.exe -d C:/Users/gabba/OneDrive/Documents/cours/SiteWeb/TP3/USBWebserver_8.6.2/USBWebserver 8.6.2/apache2'
+[Mon Mar 04 15:00:27.439419 2019] [mpm_winnt:notice] [pid 10648:tid 792] AH00418: Parent: Created child process 15792
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/gabba/OneDrive/Documents/cours/SiteWeb/TP3/USBWebserver_8.6.2/USBWebserver 8.6.2\\php\\ext\\php_curl.dll' - Le module sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable.\r\n in Unknown on line 0
+[Mon Mar 04 15:00:30.139437 2019] [mpm_winnt:notice] [pid 15792:tid 4] AH00354: Child: Starting 64 worker threads.

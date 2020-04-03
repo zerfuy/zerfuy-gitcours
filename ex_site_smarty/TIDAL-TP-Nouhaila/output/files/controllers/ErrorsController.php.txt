@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * URL = / (erors)
+ */
+
+class Errors{
+    public function __construct($code)
+    {
+        include __DIR__ . "/../models/SearchModel.php";//on fait appel à SearchModel 
+        require_once __DIR__ . "/../../vendor/autoload.php";//on fait appel à Autoload pour utiliser SMARTY
+        
+        $smarty = new Smarty();//on fait appel à la class SMARTY
+        $smarty->setTemplateDir(__DIR__ . '/../views/');//définir le chemin des templates(Views)
+        $smarty->assign('project_path',$GLOBALS['project_path']);
+        $smarty->assign('code',$code);
+        $smarty->display('Error.tpl');
+
+    }
+}
+
+?>

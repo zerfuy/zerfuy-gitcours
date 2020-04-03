@@ -1,0 +1,40 @@
+
+Gabriel BAILLY
+Loic CAILLE
+
+PiMonteCarlo_MP.py
+    You have 6 CPUs
+    Le temps avec 6 Process = 0.456627
+    ('Pi:: ', 3.1414544)
+
+    You have 4 CPUs
+    Le temps avec 4 Process = 0.488921
+    ('Pi:: ', 3.1425252)
+
+    You have 2 CPUs
+    Le temps avec 2 Process = 0.899756
+    ('Pi:: ', 3.1409568)
+
+    You have 1 CPUs
+    Le temps avec 1 Process = 1.789997
+    ('Pi:: ', 3.141706)
+
+
+MergeSort_MP.py
+    Le temps avec 6 Process = 0.019875 pour un tableau de 1000 elems
+    Le temps avec 4 Process = 0.015842 pour un tableau de 1000 elems
+    Le temps avec 2 Process = 0.009638 pour un tableau de 1000 elems
+    Le temps avec 1 Process = 0.007790 pour un tableau de 1000 elems
+
+
+    Le temps avec 6 Process = 0.406071 pour un tableau de 100000 elems
+    Le temps avec 1 Process = 0.273877 pour un tableau de 100000 elems
+
+    Le temps avec 6 Process = 34.843714 pour un tableau de 1000000 elems
+    Le temps avec 1 Process = 20.292294 pour un tableau de 1000000 elems
+
+PiArctan_MP.py
+    Time with 6 Process = 0.034836
+    Time with 4 Process = 0.030232
+    Time with 2 Process = 0.025927
+    Time with 1 Process = 0.022815

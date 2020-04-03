@@ -1,0 +1,154 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x:hidden;
+}
+
+main {
+  margin-top: -1em;
+  width: 100vw;
+  left:0;
+  margin-bottom: 15%;
+  background-color:white;
+}
+
+#menubar{
+  background-color:#818181;
+  padding: 1em;
+  width: 100vw;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(224, 224, 224);
+  color:black;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+  height: 10%;
+  left:0;
+  right:0;
+}
+
+#sortingPrice .column{
+  width: 25vw;
+}
+
+#headContainer{
+  padding: 1em;
+  background-color: rgb(194, 194, 194);
+}
+
+.grid-container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  overflow:hidden;
+}
+.grid-item {
+  text-align: center;
+  margin: 2px;
+}
+
+footer .column {
+  float: left;
+  width: 33.33%;
+}
+
+footer .row {
+  margin-top: 1%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  top: 0;
+  position: absolute;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.destination {
+  display: flex;
+  margin: 1em;
+}
+
+.destination p {
+  padding-left: 1em;
+}
+/*
+.SortingCheckbox{
+margin-left:2em;
+}
+
+#MaxPrice, #MinPrice{
+  margin-left:2em;
+  margin-top:1em;
+}
+*/
+#sorting{
+  background-color: #c0c0c0;
+  padding: 1em;
+  color:white;
+}
+
+#openMenuBtn {
+  font-size:30px;
+  cursor:pointer;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 220px;
+  overflow: hidden;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: 60%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+

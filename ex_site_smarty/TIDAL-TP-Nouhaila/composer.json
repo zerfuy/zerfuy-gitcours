@@ -1,0 +1,9 @@
+{
+    "name": "TIDAL-TP",
+    "description": "TIDAL-TP",
+    "require": {
+        "smarty/smarty": "^3.1",
+        "jms/serializer": "1.7.*",
+        "phpdocumentor/phpdocumentor": "^2.9"
+    }
+}

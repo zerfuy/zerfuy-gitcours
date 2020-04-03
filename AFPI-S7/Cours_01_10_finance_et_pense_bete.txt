@@ -1,0 +1,24 @@
+Cours 01/10
+
+    gérer la trésorerie : s'assurer d'un équilibre entre les encaissements & les décaissements en vue de mettre en place préventivement les moyens de financement nécéssaires en cas de virements de liquidités à une période donnée.
+
+    1) Les encaissements 
+        ventes encaissées (budget des ventes)
+        Référencement des clients (données des périodes précédents)
+        rapport à capital (données du bilan)
+        emprunt à + d'1 an (Budget de financement des investissements)
+
+    2) les décaissements
+        achat important (budget des approvisionnements)
+        paiement des fournisseurs (données des périodes précédentes)
+        salaires & charges sociales (budget de production et/ou budget de fonctionnement)
+        autres charges (budget des charges)
+        investissement (budget des investissements)
+        remboursement d'emprunt (budget de financement)
+        dividendes (données du bilan)
+
+    3) trésorerie
+        Trésorerie début de période + encaissement - décaissements = Trésorerie fin de période
+
+    NB : le tableau des encaissements ne prends pas en considération le produit calculé, et donc non encaissé de la période. 
+    

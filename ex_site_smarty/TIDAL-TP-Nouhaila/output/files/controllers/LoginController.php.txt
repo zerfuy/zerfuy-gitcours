@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * URL = /login
+ */
+
+class Login{
+    public function __construct()
+    {
+        if(isset($_SESSION['TIDAL_USER_ID'])){
+            header('location:'.$GLOBALS['project_path'].'/');
+            exit;
+        }
+
+        include __DIR__ . "/../models/UserModel.php";//on fait appel à SearchModel 
+        require_once __DIR__ . "/../../vendor/autoload.php";//on fait appel à Autoload pour utiliser SMARTY
+        
+        $model = new UserModel();
+        $smarty = new Smarty();//on fait appel à la class SMARTY
+        $smarty->setTemplateDir(__DIR__ . '/../views/');//définir le chemin des templates(Views)
+        if(isset($_POST['login']) && isset($_POST['pass'])){
+            $login = $_POST['login'];
+            $pass = $_POST['pass'];
+            $user = $model->login($login,$pass);
+            if($user != null){
+                $_SESSION['TIDAL_USER_ID'] = $user['id_User'];
+                $_SESSION['TIDAL_USER_NAME'] = $user['firstname'];
+                header('location:'.$GLOBALS['project_path'].'/search');
+            }else{
+                $smarty->assign('error','les informations  sont incorrects!!!'); 
+            }
+        }
+        $smarty->assign('project_path',$GLOBALS['project_path']);
+        $smarty->display('LoginView.tpl');
+
+    }
+}
+
+?>

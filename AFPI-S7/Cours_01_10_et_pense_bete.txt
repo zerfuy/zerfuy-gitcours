@@ -1,0 +1,27 @@
+Cours 01/10
+
+    définir la notion de done
+    etre agile no signifie pas ne pas avoir d'obj
+
+    pyramide de la planif agile (précise au début, imprécise plus on s'éloigne)
+
+                    vision
+                Road Map
+            Release plan
+        Sprint planning
+
+
+on parle des estimations en efforts (par exemple, des story points)
+
+Pour être chiffrée un user story doit être :
+I 
+N
+V
+E
+S
+T
+
+la vélocité : nb de story points DONE sur une période donnée
+    permet d'estimer la productivité à venir en calculant un coeff sur totues les autres vélocités / quelques unes...
+    elle est sensée s'améliorer
+    
