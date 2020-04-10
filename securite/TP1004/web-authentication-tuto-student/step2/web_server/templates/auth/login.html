@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/lib/Semantic-UI-CSS-master/semantic.min.css" />
+
+    
+</head>
+<body>
+<h1>Hello I AM HERE LOGIN</h1>
+
+
+
+<form class="ui form" action="/auth/login" method="POST">
+    <div class="field">
+      <label>User Name</label>
+      <input id="iptusername" type="text" name="username" placeholder="User Name">
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input id="iptpwd" type="password" name="password" placeholder="Passord">
+    </div>
+    <!--
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" tabindex="0" class="hidden">
+        <label>I agree to the Terms and Conditions</label>
+      </div>
+    </div>
+    -->
+    
+    <button id="btnsubmit" class="ui button" type="button">Submit</button>
+  </form>
+  <script src="/static/lib/jquery-3.4.1.min.js"></script>
+<script src="/static/js/login.js"></script>
+</body>
+</html>

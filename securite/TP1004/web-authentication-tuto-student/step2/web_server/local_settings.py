@@ -1,0 +1,9 @@
+# for local
+SECRET_KEY = b'SomethingNotEntirelySecret'
+SERVER_URL = "http://127.0.0.1:8080/auth/"
+ADMIN_USERNAME = "test_admin"
+ADMIN_PASS = "test_admin"
+REALM_NAME = "customauth"
+CLIENT_ID = "web_server"
+CLIENT_SECRET = "b49afde2-4dc4-421b-83ca-42f6366b9736"
+INGRESS_HOST = ""
